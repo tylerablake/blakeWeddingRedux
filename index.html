@@ -48,7 +48,7 @@
         max-height:500px;
     }
 */
-    .counter-number {
+.counter-number {
     font-size: 50px;
     font-weight: bold;
     width: 100%;
@@ -69,16 +69,19 @@
 .doubleSpace{
     height: 50px;
 }
-/*    .navbar-nav {
-        width: 100%;
-        text-align: center;
-    > li {
-        float: none;
-        padding: 5px;
-      display: inline-block;
+
+@media screen and (min-width: 1200px) {
+    #sliderImage{
+    top: -148px;
     }
-  }
-*/</style>
+}
+@media screen and (max-width: 1200px) {
+    #sliderImage{
+    top: -35px;
+    }
+}
+
+</style>
 
 
 </head>
@@ -107,7 +110,7 @@
                     <li class="page-scroll">
                         <a href="#brideAndGroom">Bride & Groom</a>
                     </li>
-                    <li class="page-scroll">
+                   <li class="page-scroll">
                         <a href="#proposal">Proposal</a>
                     </li>
                     <li class="page-scroll">
@@ -128,14 +131,7 @@
 
     <!-- Into/Slider Section -->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p> Add EmilyAndTylerSlider1.jpg</p>
-                 <!--   <img class="img-responsive" src="img/profile.png" alt=""> -->
-                </div>
-            </div>
-        </div>
+                    <img id="sliderImage" class="col-md-12 img-responsive" src="img/slider/sliderTest.jpg" alt="">
     </header>
 
 

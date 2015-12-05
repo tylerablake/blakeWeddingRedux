@@ -802,7 +802,7 @@
             </div>
         </div>
     </div> -->
-</body>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -829,7 +829,7 @@
     <!-- MapBox JavaScipt -->
     <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
 <script>
-$(document).ready(function(){
+ $(document).ready(function(){
     L.mapbox.accessToken = 'pk.eyJ1IjoiZWFwIiwiYSI6IjZ5UG0yTFEifQ.1E1XmBHGouwyUQ4WexRI1A';
     var map = L.mapbox.map('map', 'mapbox.streets-basic', {
       zoomControl: true
@@ -837,7 +837,7 @@ $(document).ready(function(){
 
     // Disable drag and zoom handlers.
     // map.dragging.disable();
-    map.touchZoom.disable();
+    map.touchZoom.disable()
     // map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
 
@@ -859,8 +859,8 @@ $(document).ready(function(){
             'marker-symbol': 'star'
         }
     }).addTo(map);
-});
+ });
     
 </script>
-
+<body>
 </html>

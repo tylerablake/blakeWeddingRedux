@@ -441,7 +441,7 @@
 
     <!-- The Mapbox Section -->
     <section>
-        <div style="background-color: black;">
+        <div>
             <div id="map" style="position:absolute; top:0; bottom:0; max-width:100%; max-height:500px;"></div>
         </div>
     </section>
@@ -802,6 +802,7 @@
             </div>
         </div>
     </div> -->
+</body>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -827,9 +828,8 @@
 
     <!-- MapBox JavaScipt -->
     <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
-
-
 <script>
+$(document).ready(function(){
     L.mapbox.accessToken = 'pk.eyJ1IjoiZWFwIiwiYSI6IjZ5UG0yTFEifQ.1E1XmBHGouwyUQ4WexRI1A';
     var map = L.mapbox.map('map', 'mapbox.streets-basic', {
       zoomControl: true
@@ -859,8 +859,8 @@
             'marker-symbol': 'star'
         }
     }).addTo(map);
+});
+    
 </script>
-
-</body>
 
 </html>

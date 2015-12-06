@@ -40,6 +40,12 @@
         font-weight: 900;
     }
 
+#page-top > section:nth-child(4){
+    background-color: #EB87AF;
+}
+#quote{
+    background-color: #DD6193;
+}
 .sectionTitle{
     color: #bc995d;
 }
@@ -72,15 +78,57 @@
 .doubleSpace{
     height: 50px;
 }
+#page-top > nav{
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #bc995d;
+}
+#bs-example-navbar-collapse-1 > ul > li.page-scroll.active{
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #bc995d;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    color:black;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#header{
+    padding-bottom: 50px;
+}
+#page-top > footer > div{
+    background-color: black;
+}
 
 @media screen and (min-width: 1200px) {
     #sliderImage{
-    top: -148px;
+    top: -260px;
     }
 }
 @media screen and (max-width: 1200px) {
     #sliderImage{
-    top: -35px;
+    top: -85px;
     }
 }
 
@@ -102,13 +150,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               </div>
+           </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll">
-                        <a href="#page-top">Home</a>
+                        <a href="#header">Home</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#brideAndGroom">Bride & Groom</a>
@@ -133,9 +181,11 @@
     </nav>
 
     <!-- Into/Slider Section -->
-    <header>
-                    <img id="sliderImage" class="col-md-12 img-responsive" src="img/slider/sliderTest.jpg" alt="">
-    </header>
+        <section id="header" style="background-color: white;">
+            <div class="row">
+                <img id="sliderImage" class="col-md-12 img-responsive" src="img/slider/sliderTest.jpg" alt="">
+            </div>
+        </section>               
 
 
     <!-- The Bride And Groom Grid Section -->
@@ -150,11 +200,11 @@
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-1 portfolio-item">
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                        <div class="text-center">
+                    <div class="text-center">
                         <h3><span>Emily</span></h3>
                         <h6>Bride</h6>
-                        <p>Part time nurse, full time dessert connoisseur</p>
-                    </div>
+<!--                         <p>Part time nurse, full time dessert connoisseur</p>
+ -->                    </div>
                 </div>
                 <div class="col-sm-2">
                 </div>
@@ -163,26 +213,21 @@
                         <div class="text-center">
                         <h3><span>Tyler</span></h3>
                         <h6>Groom</h6>
-                        <p>Part time software developer, full time gamer</p>
-                    </div>
+<!--                         <p>Part time software developer, full time gamer</p>
+ -->                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- The Countdown Section -->
-    <section class="success">
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="sectionTitle">Countdown</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
             <div class="row">
                 <br>
                 <div id="countdown" class="text-center counter-number">
                 </div>
+            </div>
         </div>
     </section>
 
@@ -193,7 +238,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">The Proposal</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -225,36 +269,36 @@
                         <div class="text-center">
                                 <h3><span>Clare Field</span></h3>
                                 <h6>Maid Of Honor</h6>
-                                <p>Part time marketing assistant, <br>
+<!--                                 <p>Part time marketing assistant, <br>
                                     full time Beyonce backup singer</p>
-                            </div>
+ -->                            </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="">
                         <div class="text-center">
                                 <h3><span>Christa Hile</span></h3>
                                 <h6>Bridesmaid</h6>
-                                <p>Part time occupation, <br>
+<!--                                 <p>Part time occupation, <br>
                                     full time bridesmaid</p>
-                            </div>
+ -->                            </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                         <div class="text-center">
                                 <h3><span>Leslie Blanchard</span></h3>
                                 <h6>Bridesmaid</h6>
-                                <p>Part time occupation, <br>
+<!--                                 <p>Part time occupation, <br>
                                     full time bridesmaid</p>
-                            </div>
+ -->                            </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                         <div class="text-center">
                                 <h3><span>Breanna Blake</span></h3>
                                 <h6>Bridesmaid</h6>
-                                <p>Part time student, <br>
+<!--                                 <p>Part time student, <br>
                                     full time selfie fanatic</p>
-                            </div>
+ -->                            </div>
                 </div>
             </div>
             <div class="space"></div>
@@ -264,26 +308,26 @@
                         <div class="text-center">
                                 <h3><span>Jeremiah Blake</span></h3>
                                 <h6>Best Man</h6>
-                                <p>Part time occupation, <br>
+<!--                                 <p>Part time occupation, <br>
                                     full time best man</p>
-                            </div>
+ -->                            </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="">
                         <div class="text-center">
                                 <h3><span>Ryan Hoover</span></h3>
                                 <h6>Groomsman</h6>
-                                <p>Part time occupation, <br>
+<!--                                 <p>Part time occupation, <br>
                                     full time groomsman</p>
-                            </div>
+ -->                            </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                         <div class="text-center">
                                 <h3><span>Nick Byrd</span></h3>
                                 <h6>Groomsman</h6>
-                                <p>Part time plane mechanic, <br>
-                                    full time beer pong pro</p>
+<!--                                 <p>Part time plane mechanic, <br>
+                                    full time beer pong pro</p> -->
                             </div>
                 </div>
                 <div class="col-sm-3 portfolio-item">
@@ -291,8 +335,8 @@
                         <div class="text-center">
                                 <h3><span>Colin Portman</span></h3>
                                 <h6>Groomsman</h6>
-                                <p>Part time occupation, <br>
-                                    full time groomsman</p>
+<!--                                 <p>Part time occupation, <br>
+                                    full time groomsman</p> -->
                             </div>
                 </div>
             </div>
@@ -339,7 +383,7 @@
     </section>
 
     <!-- The Quote Section -->
-    <section class="success">
+    <section id="quote" class="success">
         <div class="container">
             <div class="row">
                 <br>
@@ -357,7 +401,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">Images</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -414,7 +457,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">When & Where</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -438,11 +480,13 @@
             </div>
         </div>
             <div class="doubleSpace"></div>
+
     <!-- The Mapbox Section -->
         <div>
             <div class="col-md-10 col-md-offset-1" id="map" style="position:relative; top:0; bottom:0; max-width:100%; max-height:500px; min-height: 200px;"></div>
 
         </div>
+            <div class="doubleSpace"></div>
             <div class="doubleSpace"></div>
     </section>
 
@@ -457,8 +501,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
+                    <! To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
+                    <! The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -507,7 +551,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="sectionTitle">The Registries</h2>
+                    <h2 class="sectionTitle">Registries</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -524,42 +568,9 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="text-center">
-<!--         <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -572,235 +583,12 @@
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
+<!--     <div class="scroll-top page-scroll visible-xs visible-sm">
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-<!--     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div> -->
+
 
 
     <!-- jQuery -->
@@ -862,5 +650,5 @@
  });
     
 </script>
-<body>
+</body>
 </html>

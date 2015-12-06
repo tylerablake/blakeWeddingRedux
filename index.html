@@ -115,7 +115,7 @@
 }
 
 #header{
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 #page-top > footer > div{
     background-color: black;
@@ -124,12 +124,18 @@
 @media screen and (min-width: 1200px) {
     #sliderImage{
     top: -260px;
+    margin-bottom: -260px;
     }
 }
 @media screen and (max-width: 1200px) {
     #sliderImage{
     top: -85px;
+    margin-bottom: -85px;
     }
+}
+
+#sliderImageContainer{
+    width: 100%;
 }
 
 </style>
@@ -156,7 +162,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll">
-                        <a href="#header">Home</a>
+                        <a href="#intro">Home</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#brideAndGroom">Bride & Groom</a>
@@ -180,12 +186,15 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Into/Slider Section -->
-        <section id="header" style="background-color: white;">
+    <section id="intro"> 
+        <div id="sliderImageContainer" class="container">
             <div class="row">
-                <img id="sliderImage" class="col-md-12 img-responsive" src="img/slider/sliderTest.jpg" alt="">
+                <div class="col-md-12">
+                    <img id="sliderImage" src="img/slider/sliderTest.jpg" class="col-md-12 img-responsive" alt="">
+                </div>
             </div>
-        </section>               
+        </div>
+    </section>           
 
 
     <!-- The Bride And Groom Grid Section -->
@@ -194,7 +203,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">The Bride & Groom</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -260,7 +268,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">The Wedding Party</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -552,7 +559,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="sectionTitle">Registries</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">

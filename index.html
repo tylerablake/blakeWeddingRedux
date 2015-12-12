@@ -139,6 +139,24 @@
     width: 100%;
 }
 
+@media (max-width: 480px) {
+    .visible-desktop{
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .visible-phone{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){ 
+    .visible-phone{
+        display: none;
+    }
+}
+
 </style>
 
 
@@ -191,7 +209,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="img/slider/sliderTest.jpg" class="col-md-12 img-responsive" alt="">
+                    <img src="img/slider/sliderTest.jpg" class="col-md-12 img-responsive visible-desktop" alt="">
+                    <img src="img/slider/mobileSlider.jpg" class="col-md-12 img-responsive visible-phone" alt="">
+
                 </div>
             </div>
         </div>

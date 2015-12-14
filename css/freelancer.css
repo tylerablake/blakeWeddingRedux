@@ -557,6 +557,9 @@ footer .footer-below {
     margin-left: auto;
     margin-right: auto;
 }
+.mobile-counter{
+    text-align: center;
+}
 
 @media screen and (min-width: 1200px) {
     #sliderImage{

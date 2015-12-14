@@ -457,3 +457,147 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+    #venueTitle {
+        color: #bc995d; 
+        font-weight: 900;
+    }
+
+#page-top > section:nth-child(4){
+    background-color: #EB87AF;
+}
+#quote{
+    background-color: #DD6193;
+}
+.sectionTitle{
+    color: #bc995d;
+    padding-bottom: 50px;
+    font-family: BombshellPro;
+    font-weight: normal;
+    font-style: normal;
+     text-transform: capitalize;
+}
+
+.counter-number {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    line-height: 56px;
+    color: #FFF;
+    margin-bottom: 8px;
+}
+
+.navbar-nav li{
+    padding: 2px;
+}
+
+.space
+{
+    height: 5px;
+}
+.doubleSpace{
+    height: 50px;
+}
+#page-top > nav{
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #bc995d;
+}
+#bs-example-navbar-collapse-1 > ul > li.page-scroll.active{
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #bc995d;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    color:black;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#page-top > nav > div > div.navbar-header.page-scroll {
+    margin-top: -10px;
+    height: 50px;
+}
+
+#header{
+    padding-bottom: 0px;
+}
+#page-top > footer > div{
+    background-color: black;
+}
+
+.weddingParty{
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proposalImage{
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    #sliderImage{
+    top: -260px;
+    margin-bottom: -260px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #sliderImage{
+    top: -85px;
+    margin-bottom: -85px;
+    }
+}
+
+#sliderImageContainer{
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .visible-desktop{
+        display: none;
+    }
+    #countdown{
+        display: none;
+    }
+}
+
+@media (min-width: 480px){
+    .visible-phone{
+        display: none;
+    }
+    .days-wrapper{
+        display: none;
+    }
+    .hours-wrapper{
+        display: none;
+    }
+    .minutes-wrapper{
+        display: none;
+    }
+    .seconds-wrapper{
+        display: none;
+    }
+}

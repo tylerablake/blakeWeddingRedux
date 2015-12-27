@@ -641,3 +641,11 @@ footer .footer-below {
     z-index: 9999;
     background: url(preloader.gif) center no-repeat #fff;
 }
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}

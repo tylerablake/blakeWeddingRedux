@@ -556,7 +556,24 @@ footer .footer-below {
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(100%);
 }
+
+.registry:hover {
+    -webkit-filter: grayscale(0%);
+      -webkit-transition: .5s ease-in-out;
+      -moz-filter: grayscale(0%);
+      -moz-transition: .5s ease-in-out;
+      -o-filter: grayscale(0%);
+      -o-transition: .5s ease-in-out;
+      filter: grayscale(0%);
+} 
 
 .proposalImage{
     max-height: 450px;

@@ -33,13 +33,23 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<!-- TODO: Move Styles to External Style Sheet -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-
+<script type="text/javascript">
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
 
 </head>
 
 <body id="page-top" class="index">
+
+<!-- Spinner -->
+<div class="se-pre-con"></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -352,9 +362,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

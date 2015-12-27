@@ -608,6 +608,12 @@ footer .footer-below {
     #countdown{
         display: none;
     }
+    .proposalImage{
+        margin-bottom: 5px;
+    }
+    .registry{
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 480px){

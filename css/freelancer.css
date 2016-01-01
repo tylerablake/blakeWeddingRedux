@@ -465,6 +465,8 @@ footer .footer-below {
 }
 #quote{
     background-color: #DD6193;
+    text-align: center;
+    padding: 5px;
 }
 .sectionTitle{
     color: #bc995d;
@@ -553,13 +555,6 @@ footer .footer-below {
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: .5s ease-in-out;
-  -moz-filter: grayscale(100%); 
-  -moz-transition: .5s ease-in-out;
-  -o-filter: grayscale(100%); 
-  -o-transition: .5s ease-in-out;
-  filter: grayscale(100%);
 }
 
 .registry:hover {
@@ -611,6 +606,12 @@ footer .footer-below {
     .registry{
         margin-bottom: 30px;
     }
+    .doubleSpace{
+        display: none;
+    }
+    .registry-space{
+    height: 20px;
+}
 }
 
 @media (min-width: 480px){
@@ -628,6 +629,15 @@ footer .footer-below {
     }
     .seconds-wrapper{
         display: none;
+    }
+    .registry{
+      -webkit-filter: grayscale(100%);
+      -webkit-transition: .5s ease-in-out;
+      -moz-filter: grayscale(100%); 
+      -moz-transition: .5s ease-in-out;
+      -o-filter: grayscale(100%); 
+      -o-transition: .5s ease-in-out;
+      filter: grayscale(100%);
     }
 }
 .no-js #loader { display: none;  }

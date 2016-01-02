@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+    font-family: "Crimson Text", serif;
 }
 
 p.small {
@@ -31,8 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+    font-family: "Crimson Text","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -478,6 +479,7 @@ footer .footer-below {
 }
 
 .counter-number {
+    font-family: "Crimson Text", serif;
     font-size: 50px;
     font-weight: bold;
     width: 100%;
@@ -543,6 +545,13 @@ footer .footer-below {
 }
 #page-top > footer > div{
     background-color: black;
+}
+
+#brideAndGroomImage{
+/*    height: 400px;
+    width: 300px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .weddingParty{
@@ -661,7 +670,10 @@ footer .footer-below {
     float: none;
 }
 .navbar-nav > li > a{
-    font-family: 'Alegreya SC', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 1.25em;
     text-transform: none;
+}
+.streetAddress{
+    margin-bottom: 0px;
 }

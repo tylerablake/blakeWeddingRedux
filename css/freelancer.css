@@ -677,3 +677,15 @@ footer .footer-below {
 .streetAddress{
     margin-bottom: 0px;
 }
+#loadingText{
+    color: #bc995d;
+    font-family: BombshellPro;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    margin: auto;
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    text-align: center;
+}

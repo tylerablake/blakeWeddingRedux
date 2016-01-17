@@ -466,6 +466,7 @@ footer .footer-below {
 }
 #quote{
     background-color: #DD6193;
+    font-family: BombshellPro;
     text-align: center;
     padding: 5px;
 }
@@ -475,7 +476,7 @@ footer .footer-below {
     font-family: BombshellPro;
     font-weight: normal;
     font-style: normal;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .counter-number {
@@ -688,4 +689,8 @@ footer .footer-below {
     top: 53%;
     width: 100%;
     text-align: center;
+}
+.bombshellText{
+    font-family: BombshellPro;
+    line-height: 35px;
 }
